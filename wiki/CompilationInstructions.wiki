@@ -20,13 +20,10 @@ This procedure was tested on Ubuntu 10.04 and 12.04. The first line ensures that
 sudo apt-get install gfortran g++ automake build-essential libtool
 bash autogen.sh
 ./configure && make && sudo make install
-sudo ldconfig
-</code>
+sudo ldconfig</code>
 On some older Ubuntu versions, the following error message can popup while running `autogen.sh`
 <code>
-configure.ac: error: possibly undefined macro: AM_PROG_AR
-</code>
+configure.ac: error: possibly undefined macro: AM_PROG_AR</code>
 In that case, the following line can be commented out in `configure.ac`
 <code>
-AM_PROG_AR
-</code>
+AM_PROG_AR</code>
