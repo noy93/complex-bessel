@@ -15,7 +15,7 @@ The library is installed to `/usr/local/lib` by default, so make sure that your 
 = Instructions for specific operating systems =
 == Ubuntu ==
 
-This procedure was tested on Ubuntu 10.04 and 12.04. The first line ensures that the build environment is setup properly. The last line ensures the linker finds the shared object library. It might or might not be necessary to run this command, but in any case it should not break your system.
+This procedure was tested on Ubuntu 10.04 and 12.04. The first line ensures that the build environment is setup properly. The last line ensures the linker finds the shared object library. It might or might not be necessary to run `ldconfig`, but in any case it should not break your system.
 <code language="sh">
 sudo apt-get install gfortran g++ automake build-essential libtool
 bash autogen.sh
