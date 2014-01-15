@@ -17,8 +17,6 @@ using namespace std;
 
 int main()
 {
-
-  sp_Hankel myHankel(1, 0.0);
   double X;
   double Y;
   complex<double> Z;
@@ -34,7 +32,7 @@ int main()
     X = 6.0*idX/99.0 - 4.0;
     Y = 3.0*idY/99.0 - 1.5;
     
-    Z = myHankel(complex<double>(X,Y) );
+    Z = sp_bessel::besselH1(0, complex<double>(X,Y) );
     
     outfile << X << " " << Y << " " << real(Z) << " " << imag(Z) << endl;
 

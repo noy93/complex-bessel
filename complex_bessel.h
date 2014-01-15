@@ -1,12 +1,14 @@
-#ifndef CBESSEL_H_
-#define CBESSEL_H_
+#ifndef CBESSEL_
+#define CBESSEL_
 
-/*! \file complex_bessel.h
+/*! \file complex_bessel
  *
  * \author Joey Dumont <joey.dumont@gmail.com>
  * \author Denis Gagnon <gagnon88@gmail.com>
  *
- * \date 2012-09-07
+ * \date 2014-01-13
+ * 
+ * \since 2012-09-07
  *
  * \brief Header file that includes the library headers.
  *
@@ -19,12 +21,5 @@
  */
 
 #include "complex_bessel/fortranLinkage.h"
-#include "complex_bessel/sp_besseli.h"
-#include "complex_bessel/sp_besselj.h"
-#include "complex_bessel/sp_besselk.h"
-#include "complex_bessel/sp_bessely.h"
-#include "complex_bessel/sp_complexBessel.h"
-#include "complex_bessel/sp_hankel.h"
-#include "complex_bessel/sp_airy.h"
 
 #endif
