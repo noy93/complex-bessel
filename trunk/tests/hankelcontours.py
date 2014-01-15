@@ -44,6 +44,6 @@ plot(Xcut,Ycut,lw=2.5,color='k')
 
 xlabel('x')
 ylabel('y')
-title('Contour lines of the modulus and phase of $H_0^{(1)}(x+iy)$ \n (reproduced from Abramowitz & Stegun, p.359)')
+title('Contour lines of the modulus and phase of $H_0^{(1)}(x+iy)$ \n (reproduced from Abramowitz \& Stegun, p.359)')
 
 savefig('contours.png')
