@@ -166,7 +166,7 @@ inline std::complex<double> besselY(int order, std::complex<double> z)
     // If order is negative, we must apply the reflection formula.
     if (order < 0)
     {
-        answer *= (order & 1 ? 1.0 : 1.0);
+        answer *= (order & 1 ? -1.0 : 1.0);
     }
 
     // If the return code is not normal, we print the error code.
